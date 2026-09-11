@@ -1,0 +1,6 @@
+{
+  "name": "Wort Klang Deutschland Map",
+  "description": "خريطة تفاعلية ناطقة لألمانيا بدقة عالية: استكشاف الولايات والمدن مع اللفظ الصوتي وقراءة النصوص وتحليل الكلمات والأدوات (der/die/das) وترجمتها للعربية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

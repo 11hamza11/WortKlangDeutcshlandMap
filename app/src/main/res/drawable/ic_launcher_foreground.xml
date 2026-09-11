@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Golden Sparkle Dust & Swirling Melody Lines -->
+    <path
+        android:pathData="M68,28 Q78,22 84,32 T90,48"
+        android:strokeColor="#FFFDE047"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M72,36 Q84,30 88,42 T86,58"
+        android:strokeColor="#B3F59E0B"
+        android:strokeWidth="0.9"
+        android:strokeLineCap="round" />
+
+    <!-- Musical Eighth Note (Gold) -->
+    <path
+        android:pathData="M80,24 L80,35 A2.5,2 0 1,1 77.5,33 L79,33 L79,24 L86,22 L86,31 A2.5,2 0 1,1 83.5,29 L85,29 L85,23.5 Z"
+        android:fillColor="#FFF59E0B" />
+
+    <!-- Musical Quarter Note (Gold) -->
+    <path
+        android:pathData="M88,44 L88,52 A2.5,2 0 1,1 85.5,50 L87,50 L87,44 Z"
+        android:fillColor="#FFD97706" />
+
+    <!-- Treble Clef Accent -->
+    <path
+        android:pathData="M24,42 C26,38 30,36 30,42 C30,47 22,50 22,56 C22,60 26,64 30,62 C32,60 32,57 30,56 C28,56 26,58 24,56 C22,54 26,50 28,48 C30,45 31,40 28,38 C26,36 22,38 22,42 Z"
+        android:fillColor="#DDF59E0B" />
+
+    <!-- German Flag Ribbon in Background (Schwarz - Rot - Gold) -->
+    <!-- Black Ribbon Top -->
+    <path
+        android:pathData="M20,68 C32,62 42,70 54,65 C66,60 76,68 88,64 L88,70 C76,74 66,66 54,71 C42,76 32,68 20,74 Z"
+        android:fillColor="#FF1E293B" />
+    <!-- Red Ribbon Center -->
+    <path
+        android:pathData="M20,74 C32,68 42,76 54,71 C66,66 76,74 88,70 L88,76 C76,80 66,72 54,77 C42,82 32,74 20,80 Z"
+        android:fillColor="#FFDC2626" />
+    <!-- Gold Ribbon Bottom -->
+    <path
+        android:pathData="M20,80 C32,74 42,82 54,77 C66,72 76,80 88,76 L88,82 C76,86 66,78 54,83 C42,88 32,80 20,86 Z"
+        android:fillColor="#FFF59E0B" />
+
+    <!-- Shockmount Outer Suspension Ring (Vintage Microphone Mount) -->
+    <path
+        android:pathData="M38,62 C38,71 45,78 54,78 C63,78 70,71 70,62"
+        android:strokeColor="#FFEAB308"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round" />
+    <!-- Shockmount Support Bars -->
+    <path
+        android:pathData="M42,66 L34,74 M66,66 L74,74 M54,78 L54,88"
+        android:strokeColor="#FFD97706"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <!-- Microphone Stand Base -->
+    <path
+        android:pathData="M46,88 L62,88 M48,90 L60,90"
+        android:strokeColor="#FFEAB308"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- MICROPHONE CAPSULE / GRILL (Golden Vintage Studio Mic) -->
+    <!-- Dome Top -->
+    <path
+        android:pathData="M44,38 C44,30 48,25 54,25 C60,25 64,30 64,38 L64,52 L44,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="44"
+                android:startY="25"
+                android:endX="64"
+                android:endY="52"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFDE047" />
+                <item android:offset="0.4" android:color="#FFF59E0B" />
+                <item android:offset="1.0" android:color="#FFB45309" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Microphone Grill Mesh Lines -->
+    <path
+        android:pathData="M45,34 H63 M44,40 H64 M44,46 H64 M48,27 V52 M54,25 V52 M60,27 V52"
+        android:strokeColor="#FF78350F"
+        android:strokeWidth="0.8" />
+
+    <!-- Microphone Golden Band Collar -->
+    <path
+        android:pathData="M43,52 H65 V55 H43 Z"
+        android:fillColor="#FFFDE047" />
+
+    <!-- Microphone Lower Body (Dark Velvet Charcoal with Gold Rim) -->
+    <path
+        android:pathData="M45,55 H63 V68 C63,70 61,72 59,72 H49 C47,72 45,70 45,68 Z"
+        android:fillColor="#FF1E2433" />
+    <path
+        android:pathData="M45,55 H63 V68 C63,70 61,72 59,72 H49 C47,72 45,70 45,68 Z"
+        android:strokeColor="#FFF59E0B"
+        android:strokeWidth="1.2" />
+
+    <!-- Golden German Bundesadler (Eagle Emblem) on Mic Body -->
+    <path
+        android:pathData="M54,58 L52,60 L50,59 L51,62 L48,63 L51,64 L50,67 L53,66 L54,69 L55,66 L58,67 L57,64 L60,63 L57,62 L58,59 L56,60 Z"
+        android:fillColor="#FFFDE047" />
+
+    <!-- Golden Sparkles -->
+    <path
+        android:pathData="M74,20 L75,23 L78,24 L75,25 L74,28 L73,25 L70,24 L73,23 Z"
+        android:fillColor="#FFFFFBEB" />
+    <path
+        android:pathData="M32,30 L32.5,32 L34.5,32.5 L32.5,33 L32,35 L31.5,33 L29.5,32.5 L31.5,32 Z"
+        android:fillColor="#FFFFFBEB" />
+</vector>

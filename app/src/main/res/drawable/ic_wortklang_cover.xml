@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="400dp"
+    android:height="260dp"
+    android:viewportWidth="400"
+    android:viewportHeight="260">
+
+    <!-- Background: Luxury Midnight Dark Texture -->
+    <path
+        android:pathData="M0,0h400v260h-400z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="200"
+                android:startY="0"
+                android:endX="200"
+                android:endY="260"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF070B12" />
+                <item android:offset="0.6" android:color="#FF111726" />
+                <item android:offset="1.0" android:color="#FF1A150A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- German National Flag (Waving Fabric Waves) -->
+    <!-- Black Wave -->
+    <path
+        android:pathData="M0,70 Q100,45 200,65 T400,50 L400,90 Q300,105 200,85 T0,90 Z"
+        android:fillColor="#DD111827" />
+    <!-- Red Wave -->
+    <path
+        android:pathData="M0,90 Q100,65 200,85 T400,70 L400,120 Q300,135 200,115 T0,120 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="90"
+                android:endX="400"
+                android:endY="120"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF991B1B" />
+                <item android:offset="0.5" android:color="#FFDC2626" />
+                <item android:offset="1.0" android:color="#FF7F1D1D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Gold Wave -->
+    <path
+        android:pathData="M0,120 Q100,95 200,115 T400,100 L400,155 Q300,170 200,150 T0,155 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="120"
+                android:endX="400"
+                android:endY="155"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFB45309" />
+                <item android:offset="0.5" android:color="#FFF59E0B" />
+                <item android:offset="1.0" android:color="#FFFDE68A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Golden German Bundesadler (Eagle Emblem) on Left Wing -->
+    <path
+        android:pathData="M95,80 C95,78 98,75 102,75 C104,75 106,77 106,79 L110,75 L114,80 L118,74 L122,82 L126,76 L130,85 L132,95 L124,96 L122,105 L115,100 L114,115 L111,105 L108,115 L106,102 L100,105 L98,96 L90,95 L92,85 L95,80 Z"
+        android:fillColor="#FFFBBF24" />
+    <!-- Eagle Crown & Head Details -->
+    <path
+        android:pathData="M111,70 L114,66 L117,70 L114,73 Z"
+        android:fillColor="#FFFDE047" />
+
+    <!-- Musical Staff Swirling Streams & Stardust -->
+    <path
+        android:pathData="M190,140 Q250,90 320,110 T390,70"
+        android:strokeColor="#80FDE047"
+        android:strokeWidth="1.6" />
+    <path
+        android:pathData="M195,148 Q255,98 325,118 T395,78"
+        android:strokeColor="#66F59E0B"
+        android:strokeWidth="1.2" />
+    <path
+        android:pathData="M200,156 Q260,106 330,126 T400,86"
+        android:strokeColor="#4DFBBF24"
+        android:strokeWidth="1.0" />
+
+    <!-- Swirling Golden Musical Notes -->
+    <!-- Clef (مفتاح صول الموسيقي) -->
+    <path
+        android:pathData="M330,90 C333,80 340,78 340,88 C340,98 325,105 325,116 C325,125 334,130 342,126 C346,122 346,116 342,114 C338,114 334,118 330,114 C326,110 334,102 338,98 C342,92 344,82 338,78 C334,74 326,78 326,86 Z"
+        android:fillColor="#FFF59E0B" />
+
+    <!-- Eighth Note -->
+    <path
+        android:pathData="M290,70 L290,92 A6,5 0 1,1 284,87 L287,87 L287,70 L304,66 L304,85 A6,5 0 1,1 298,80 L301,80 L301,69 Z"
+        android:fillColor="#FFFDE047" />
+
+    <!-- Quarter Note -->
+    <path
+        android:pathData="M365,110 L365,128 A6,5 0 1,1 359,123 L362,123 L362,110 Z"
+        android:fillColor="#FFF59E0B" />
+
+    <!-- Beam Note Pair -->
+    <path
+        android:pathData="M250,95 L250,115 A5,4 0 1,1 245,111 L248,111 L248,95 L265,90 L265,110 A5,4 0 1,1 260,106 L263,106 L263,92 Z"
+        android:fillColor="#FFFBBF24" />
+
+    <!-- CENTERPIECE: LUXURY GOLDEN VINTAGE STUDIO MICROPHONE -->
+    <!-- Mic Mechanical Shockmount Ring -->
+    <path
+        android:pathData="M165,145 C165,170 180,188 200,188 C220,188 235,170 235,145"
+        android:strokeColor="#FFEAB308"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M172,152 L155,168 M228,152 L245,168 M200,188 L200,215"
+        android:strokeColor="#FFD97706"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M178,215 L222,215 M184,222 L216,222"
+        android:strokeColor="#FFFDE047"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- Microphone Capsule Grill (Golden Arch) -->
+    <path
+        android:pathData="M178,85 C178,60 188,48 200,48 C212,48 222,60 222,85 L222,125 L178,125 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="178"
+                android:startY="48"
+                android:endX="222"
+                android:endY="125"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFBEB" />
+                <item android:offset="0.3" android:color="#FFFDE047" />
+                <item android:offset="0.7" android:color="#FFF59E0B" />
+                <item android:offset="1.0" android:color="#FFB45309" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Grill Mesh Grid Lines -->
+    <path
+        android:pathData="M180,75 H220 M178,90 H222 M178,105 H222 M178,120 H222 M188,52 V125 M200,48 V125 M212,52 V125"
+        android:strokeColor="#FF78350F"
+        android:strokeWidth="1.2" />
+
+    <!-- Golden Collar Ring -->
+    <path
+        android:pathData="M175,125 H225 V132 H175 Z"
+        android:fillColor="#FFFDE047" />
+
+    <!-- Microphone Lower Body (Dark Obsidian with Gold Inlay) -->
+    <path
+        android:pathData="M180,132 H220 V165 C220,170 216,174 210,174 H190 C184,174 180,170 180,165 Z"
+        android:fillColor="#FF182030" />
+    <path
+        android:pathData="M180,132 H220 V165 C220,170 216,174 210,174 H190 C184,174 180,170 180,165 Z"
+        android:strokeColor="#FFF59E0B"
+        android:strokeWidth="2.5" />
+
+    <!-- Eagle Silhouette on Mic Body -->
+    <path
+        android:pathData="M200,142 L196,146 L192,144 L194,149 L189,151 L194,153 L192,158 L198,156 L200,161 L202,156 L208,158 L206,153 L211,151 L206,149 L208,144 L204,146 Z"
+        android:fillColor="#FFFDE047" />
+
+    <!-- Golden Sparkles & Light Halos -->
+    <path
+        android:pathData="M240,42 L242,48 L248,50 L242,52 L240,58 L238,52 L232,50 L238,48 Z"
+        android:fillColor="#FFFFFBEB" />
+    <path
+        android:pathData="M155,60 L156.5,64.5 L161,66 L156.5,67.5 L155,72 L153.5,67.5 L149,66 L153.5,64.5 Z"
+        android:fillColor="#FFFFFBEB" />
+    <path
+        android:pathData="M310,140 L311.5,144.5 L316,146 L311.5,147.5 L310,152 L308.5,147.5 L304,146 L308.5,144.5 Z"
+        android:fillColor="#FFFDE047" />
+</vector>
